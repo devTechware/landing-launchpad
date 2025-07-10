@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Raleway", sans-serif;
   color: #252432;
+  background-color: #f5f8ff;
   /* font-family: "Inter", sans-serif; */
 }
 
@@ -72,4 +73,34 @@ body {
 .hero-title {
   font-size: 65px;
   font-weight: bold;
+  margin-bottom: 37px;
+}
+
+/* Action Section Styles */
+
+.action-container {
+  /* outline: 2px solid red; */
+  display: flex;
+  gap: 220px;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 116px auto;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.action-description {
+  font-size: 24px;
+  line-height: 30px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
+}
+
+.action-img > img {
+  border: none;
+  border-radius: 48px;
 }
