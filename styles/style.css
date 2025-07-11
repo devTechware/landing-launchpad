@@ -275,3 +275,51 @@ textarea {
   margin-top: 10px;
   padding: 20px 32px;
 }
+
+/* Footer Section Styles */
+
+.footer-container {
+  height: 430px;
+  font-family: "Inter", sans-serif;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-info {
+  width: 530px;
+  margin: 105px auto;
+  text-align: center;
+}
+
+.footer-site-name {
+  font-size: 100px;
+  font-weight: 900;
+  color: #4e47ff;
+  cursor: pointer;
+}
+
+.footer-subtitle {
+  color: #8987a1;
+  margin-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.footer-links > li {
+  list-style: none;
+}
+
+.footer-links > li > a {
+  text-decoration: none;
+  color: #8987a1;
+}
+
+.footer-links > li > a:hover {
+  font-size: 20px;
+}
