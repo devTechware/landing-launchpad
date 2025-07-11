@@ -8,7 +8,6 @@ body {
   font-family: "Raleway", sans-serif;
   color: #252432;
   background-color: #f5f8ff;
-  /* font-family: "Inter", sans-serif; */
 }
 
 /* Shared Styles */
@@ -88,11 +87,9 @@ body {
 /* Action Section Styles */
 
 .action-container {
-  /* outline: 2px solid red; */
   display: flex;
   gap: 220px;
   align-items: center;
-  /* justify-content: space-between; */
   margin: 116px auto;
 }
 
@@ -231,4 +228,50 @@ body {
 .promo-extra-img {
   margin-top: 20px;
   border-radius: 48px;
+}
+
+/* Newsletter Section Styles */
+
+.newsletter-container {
+  padding-top: 71px;
+  padding-bottom: 71px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsletter-title {
+  width: 45%;
+  font-size: 97px;
+  font-weight: bold;
+}
+
+.newsletter-form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.newsletter-form > label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  padding: 20px 32px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.newsletter-form > button {
+  margin-top: 10px;
+  padding: 20px 32px;
 }
