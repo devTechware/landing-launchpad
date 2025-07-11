@@ -35,6 +35,15 @@ body {
   cursor: pointer;
 }
 
+.btn-primary:hover {
+  color: #4e47ff;
+  font-size: 18px;
+  padding: 16px 42px;
+  background-color: white;
+  border: 1px solid #4e47ff;
+  transition-delay: 250ms;
+}
+
 /* Banner Section Styles */
 
 .banner {
@@ -139,4 +148,87 @@ body {
 .productive-user-info {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+/* Users Review Section Styles */
+
+.users-review-container {
+  text-align: center;
+  margin-bottom: 126px;
+}
+
+.users-review-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.users-review {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  gap: 20px;
+}
+
+.user-review {
+  background-color: white;
+  border-radius: 14px;
+  padding: 24px;
+  text-align: left;
+}
+
+.review-title {
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.review {
+  margin-top: 8px;
+}
+
+.reviewer {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.reviewer-img {
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+}
+
+.review-date {
+  font-size: 16px;
+  color: rgb(179, 179, 179);
+}
+
+/* Extra Section Styles */
+
+.promo-extra-container {
+  background-color: white;
+  text-align: center;
+  border-radius: 14px;
+  padding: 71px 150px;
+  margin-bottom: 92px;
+}
+
+.promo-extra-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.promo-extra-description {
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 20px;
+}
+
+.promo-extra-img {
+  margin-top: 20px;
+  border-radius: 48px;
 }
